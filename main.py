@@ -15,12 +15,17 @@ def print_colored(text, color):
 # URL do JSON
 url = "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/"
 
+# Cabeçalhos para a solicitação
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+}
+
 # Caminho do arquivo JSON
 file_path = "json/megasena.json"
 
 try:
-    # Enviar uma solicitação GET para a URL do JSON
-    response = requests.get(url)
+    # Enviar uma solicitação GET para a URL do JSON com cabeçalhos
+    response = requests.get(url, headers=headers)
     response.raise_for_status()  # Verifica se a requisição foi bem-sucedida
 
     # Obter o JSON da resposta
