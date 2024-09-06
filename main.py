@@ -13,7 +13,7 @@ def print_colored(text, color):
     print(f"{colors[color]}{text}{colors['reset']}")
 
 # URL do JSON
-url = "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/"
+url = "https://loteriascaixa-api.herokuapp.com/api/megasena/latest"
 
 # Cabeçalhos para a solicitação
 headers = {

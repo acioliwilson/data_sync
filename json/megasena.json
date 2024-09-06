@@ -1,8 +1,9 @@
 {
-    "acumulado": true,
-    "dataApuracao": "03/09/2024",
-    "dataProximoConcurso": "06/09/2024",
-    "dezenasSorteadasOrdemSorteio": [
+    "loteria": "megasena",
+    "concurso": 2770,
+    "data": "03/09/2024",
+    "local": "ESPAÇO DA SORTE em SÃO PAULO, SP",
+    "dezenasOrdemSorteio": [
         "37",
         "50",
         "44",
@@ -10,10 +11,7 @@
         "60",
         "21"
     ],
-    "exibirDetalhamentoPorCidade": true,
-    "id": null,
-    "indicadorConcursoEspecial": 1,
-    "listaDezenas": [
+    "dezenas": [
         "21",
         "28",
         "37",
@@ -21,47 +19,38 @@
         "50",
         "60"
     ],
-    "listaDezenasSegundoSorteio": null,
-    "listaMunicipioUFGanhadores": [],
-    "listaRateioPremio": [
+    "trevos": [],
+    "timeCoracao": null,
+    "mesSorte": null,
+    "premiacoes": [
         {
-            "descricaoFaixa": "6 acertos",
+            "descricao": "6 acertos",
             "faixa": 1,
-            "numeroDeGanhadores": 0,
+            "ganhadores": 0,
             "valorPremio": 0.0
         },
         {
-            "descricaoFaixa": "5 acertos",
+            "descricao": "5 acertos",
             "faixa": 2,
-            "numeroDeGanhadores": 35,
+            "ganhadores": 35,
             "valorPremio": 73311.94
         },
         {
-            "descricaoFaixa": "4 acertos",
+            "descricao": "4 acertos",
             "faixa": 3,
-            "numeroDeGanhadores": 2345,
+            "ganhadores": 2345,
             "valorPremio": 1563.15
         }
     ],
-    "listaResultadoEquipeEsportiva": null,
-    "localSorteio": "ESPAÇO DA SORTE",
-    "nomeMunicipioUFSorteio": "SÃO PAULO,  SP",
-    "nomeTimeCoracaoMesSorte": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
-    "numero": 2770,
-    "numeroConcursoAnterior": 2769,
-    "numeroConcursoFinal_0_5": 2775,
-    "numeroConcursoProximo": 2771,
-    "numeroJogo": 2,
+    "estadosPremiados": [],
     "observacao": "",
-    "premiacaoContingencia": null,
-    "tipoJogo": "MEGA_SENA",
-    "tipoPublicacao": 3,
-    "ultimoConcurso": true,
+    "acumulou": true,
+    "proximoConcurso": 2771,
+    "dataProximoConcurso": "06/09/2024",
+    "localGanhadores": [],
     "valorArrecadado": 44504305.0,
     "valorAcumuladoConcurso_0_5": 2971062.9,
     "valorAcumuladoConcursoEspecial": 95021007.82,
     "valorAcumuladoProximoConcurso": 28159162.88,
-    "valorEstimadoProximoConcurso": 33000000.0,
-    "valorSaldoReservaGarantidora": 0.0,
-    "valorTotalPremioFaixaUm": 0.0
+    "valorEstimadoProximoConcurso": 33000000.0
 }
